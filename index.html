@@ -1,0 +1,42 @@
+<html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <head>
+    <title>Calender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="renderDate()">
+  <div class="wrapper">
+    <div class="calender">
+        <div class="month">
+            <div class="prev" onclick="moveDate('prev')">
+                <span>&#10094</span>                   
+            </div>
+            <h2 id="month">Dec</h2>
+            <p id="date_str">sat december 10 2022</p>
+            <div class="next"onclick="moveDate('next')">
+                <span>&#10095</span>
+            </div>
+        </div>
+        
+        <div class="weekends">
+            <div>sun</div>
+            <div>mon</div>
+            <div>tue</div>
+            <div>wed</div>
+            <div>thu</div>
+            <div>fri</div>
+            <div>sat</div>
+        </div>
+        <div class="days">
+            
+        </div>
+    </div>
+  </div>  
+  <script src="web.js"></script>
+</body>
+</html>
